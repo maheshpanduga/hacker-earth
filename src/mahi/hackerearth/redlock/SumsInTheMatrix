@@ -1,0 +1,36 @@
+Sums in the Matrix
+You are given a matrix A of size  (having N rows and M columns).
+ is the element of the matrix at  row and  column.
+You have to perform Q queries. In each query, you are given 2 integers L and R, for which you have to count total number of such rows and columns which have their sum in the range L to R (both inclusive).
+
+Input format
+
+The first line of input contains a single integer N denoting the number of rows in matrix A.
+This is followed by another line containing a single integer M denoting the number of columns in matrix A.
+The next N lines describe the matrix A, each containing M space separated integers.
+The next line contains a single integer Q denoting the number of queries.
+Then comes another line containing a single integer S which will always have a value 2.
+The following Q lines describe the queries, each containing 2 space separated integers L and R as described in the problem statement.
+OUTPUT FORMAT
+The output should contain Q space separated integers,  integer of which denotes the answer to the  query.
+
+CONSTRAINTS
+
+ 
+
+ 
+
+Sample Input
+2 
+2
+1 4 
+2 5 
+2 
+2
+3 7
+3 9
+Sample Output
+3 4 
+Explanation
+Row 1 sums to 5, row 2 sums to 7, column 1 sums to 3 and column 2 sums to 9.
+Hence, the answer for the  query is 3 and that for the  query is 4.

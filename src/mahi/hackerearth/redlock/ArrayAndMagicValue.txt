@@ -1,0 +1,23 @@
+Array and magic value
+You are given an array a comprising  integers. You have to calculate the magic value of the array . Magic value of an array is equal to the difference between the sum of good integers in an array and the sum of the bad integers in an array.
+
+Good integers are the ones whose indexes are not changed in an array when sorted , rest are bad.
+
+Input format
+First line of input contain a single integer .
+Second line of input contain  space separated integers, elements of array .
+
+Output format
+
+Output a single integer, magic value of array .
+
+Constraints
+
+
+Sample Input
+10
+0 4 0 0 1 3 4 1 0 2 
+Sample Output
+-13
+Explanation
+Element at  index is only element which is good element
